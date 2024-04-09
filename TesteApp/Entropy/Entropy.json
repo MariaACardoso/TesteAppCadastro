@@ -1,12 +1,13 @@
 {
   "ComponentIndexes": {
-    "Component1": 1
+    "Component1": 2
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
     "Button1": 17,
     "Button2": 6,
+    "Button3": 20,
     "Component1": 4,
     "Dropdown1": 16,
     "Dropdown1_1": 14,
@@ -20,14 +21,15 @@
     "Label2_1": 15,
     "nome": 8,
     "sap": 12,
-    "Screen1": 5
+    "Screen1": 5,
+    "Screen2": 19
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/09/2024 16:38:37",
+  "HeaderLastSavedDateTimeUTC": "04/09/2024 16:48:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "a7181703-4d3c-4d11-9101-cc9302b9979d": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/3dbb4186561c4be79e69f1fac7fad12a\""
+    "a7181703-4d3c-4d11-9101-cc9302b9979d": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/092161305956402083f86476b11f1eb8\""
   },
   "LocalDatabaseReferencesAsEmpty": true,
   "LocalResourceFileNames": {},
@@ -69,6 +71,7 @@
     "App": {},
     "Button1": {},
     "Button2": {},
+    "Button3": {},
     "Component1": {},
     "Dropdown1": {},
     "Dropdown1_1": {},
@@ -82,7 +85,8 @@
     "Label2_1": {},
     "nome": {},
     "sap": {},
-    "Screen1": {}
+    "Screen1": {},
+    "Screen2": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -90,6 +94,7 @@
     "App": 0,
     "Button1": 12,
     "Button2": 0,
+    "Button3": 0,
     "Component1": 0,
     "Dropdown1": 11,
     "Dropdown1_1": 9,
@@ -103,13 +108,14 @@
     "Label2_1": 10,
     "nome": 3,
     "sap": 7,
-    "Screen1": 3
+    "Screen1": 3,
+    "Screen2": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1490042,
+    "AnalysisLoadTime": 0.1476933,
     "ControlCount": {
       "822d3f6fcace4ff1b98560fbc8bd35f9": 1,
       "button": 2,
@@ -119,7 +125,7 @@
       "screen": 1,
       "text": 3
     },
-    "DeserializationLoadTime": 0.6728072
+    "DeserializationLoadTime": 0.650213
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
