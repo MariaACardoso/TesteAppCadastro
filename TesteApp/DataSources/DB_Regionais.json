@@ -29,12 +29,10 @@
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
-      "Email": "Email",
       "ID": "ID",
       "Modified": "Modified",
       "OData__ColorTag": "Color Tag",
-      "Regional": "Regional",
-      "Sap": "Sap",
+      "Regionais": "Regionais",
       "Title": "Title",
       "Unidade": "Unidade"
     },
@@ -42,7 +40,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "DB_Controle",
+    "Name": "DB_Regionais",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

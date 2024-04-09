@@ -17,12 +17,16 @@
         "dataSources": {
           "DB_Controle": {
             "tableName": "98dd8ebc-db9c-442a-851e-f6ee10b4caf7"
+          },
+          "DB_Regionais": {
+            "tableName": "73a06b21-2944-4925-9528-24d4e9ebcd03"
           }
         }
       }
     },
     "dataSources": [
-      "DB_Controle"
+      "DB_Controle",
+      "DB_Regionais"
     ],
     "dependencies": {},
     "dependents": [],
