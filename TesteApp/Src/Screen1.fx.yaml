@@ -131,7 +131,7 @@ Screen1 As screen:
                     DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Título: nome.Text,
+                        Title: nome.Text,
                         Email: email.Text,
                         Sap: sap.Text
                             }
