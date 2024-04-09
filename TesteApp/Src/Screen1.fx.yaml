@@ -1,0 +1,104 @@
+Screen1 As screen:
+
+    Button2 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(18, 40, 84, 1)
+        Font: =Font.Lato
+        Height: =90
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =35
+        Text: ="Registros"
+        Width: =1366
+        ZIndex: =15
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =15
+
+        email As text:
+            Default: ="Email"
+            X: =456
+            Y: =257
+            ZIndex: =1
+
+        nome As text:
+            Default: =""
+            X: =456
+            Y: =170
+            ZIndex: =2
+
+        sap As text:
+            Default: =""
+            X: =456
+            Y: =345
+            ZIndex: =4
+
+        Button1 As button:
+            OnSelect: |-
+                =
+                Patch(
+                    DB_Controle,
+                    Defaults(DB_Controle),
+                    {
+                        Title: nome.Text,
+                        Email: email.Text,
+                        Sap: sap.Text
+                            }
+                );
+            Text: ="Botão"
+            X: =536
+            Y: =670
+            ZIndex: =7
+
+        Dropdown1 As dropdown:
+            Height: =43
+            Width: =320
+            X: =456
+            Y: =524
+            ZIndex: =8
+
+        Dropdown1_1 As dropdown:
+            Height: =41
+            Items: |-
+                =[{Regional:"SE/CO"},{Regional:"Nordeste"},{Regional:"Centro-Sul"}]
+            Width: =320
+            X: =456
+            Y: =434
+            ZIndex: =9
+
+        Label1 As label:
+            Text: ="No"
+            X: =456
+            Y: =130
+            ZIndex: =10
+
+        Label1_1 As label:
+            Text: ="Email"
+            X: =456
+            Y: =217
+            ZIndex: =11
+
+        Label1_2 As label:
+            Text: ="Sap"
+            X: =456
+            Y: =304
+            ZIndex: =12
+
+        Label2 As label:
+            Text: ="Regional"
+            X: =456
+            Y: =394
+            ZIndex: =13
+
+        Label2_1 As label:
+            Text: ="Unidade"
+            X: =456
+            Y: =485
+            ZIndex: =14
+
