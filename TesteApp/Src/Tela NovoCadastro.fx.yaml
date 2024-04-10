@@ -2,6 +2,19 @@
     Fill: =RGBA(237, 237, 237, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
 
+    rectNovoCadastro_1 As rectangle:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(202, 202, 202, 1)
+        FocusedBorderThickness: =4
+        HoverFill: =RGBA(219, 219, 219, 1)
+        PressedFill: =RGBA(219, 219, 219, 1)
+        Width: =382
+        X: =492
+        Y: =12
+        ZIndex: =1
+
     rectNovoCadastro As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -14,7 +27,7 @@
         Width: =382
         X: =481
         Y: =27
-        ZIndex: =12
+        ZIndex: =13
 
     lblNovoCadastro As label:
         Align: =Align.Center
@@ -33,7 +46,7 @@
         Width: =256
         X: =544
         Y: =42
-        ZIndex: =13
+        ZIndex: =14
 
     Group2 As group:
         Height: =5
@@ -65,7 +78,7 @@
             Size: =13
             X: =523
             Y: =275
-            ZIndex: =1
+            ZIndex: =2
 
         nome As text:
             BorderThickness: =2
@@ -90,7 +103,7 @@
             Size: =13
             X: =523
             Y: =188
-            ZIndex: =2
+            ZIndex: =3
 
         sap As text:
             BorderThickness: =2
@@ -115,7 +128,7 @@
             Size: =13
             X: =523
             Y: =363
-            ZIndex: =3
+            ZIndex: =4
 
         dropdownUnidade As dropdown:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -147,7 +160,7 @@
             Width: =320
             X: =523
             Y: =542
-            ZIndex: =4
+            ZIndex: =5
 
         dropdownRegional As dropdown:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -179,7 +192,7 @@
             Width: =320
             X: =523
             Y: =452
-            ZIndex: =5
+            ZIndex: =6
 
         lblNome As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -195,7 +208,7 @@
             Text: ="Nome"
             X: =523
             Y: =148
-            ZIndex: =6
+            ZIndex: =7
 
         lblEmail As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -211,7 +224,7 @@
             Text: ="Email"
             X: =523
             Y: =235
-            ZIndex: =7
+            ZIndex: =8
 
         lblSap As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -227,7 +240,7 @@
             Text: ="Sap"
             X: =523
             Y: =322
-            ZIndex: =8
+            ZIndex: =9
 
         lblRegional As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -243,7 +256,7 @@
             Text: ="Regional"
             X: =523
             Y: =412
-            ZIndex: =9
+            ZIndex: =10
 
         lblUnidade As label:
             BorderColor: =RGBA(0, 0, 0, 0)
@@ -259,7 +272,7 @@
             Text: ="Unidade"
             X: =523
             Y: =503
-            ZIndex: =10
+            ZIndex: =11
 
     Group1 As group:
         Height: =5
@@ -307,7 +320,7 @@
             Width: =147
             X: =630
             Y: =653
-            ZIndex: =11
+            ZIndex: =12
 
         icnEnviar As icon.AddUser:
             BorderColor: =RGBA(85, 106, 129, 1)
@@ -327,5 +340,5 @@
             Width: =44
             X: =576
             Y: =657
-            ZIndex: =14
+            ZIndex: =15
 
