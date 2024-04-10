@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Registro'.nome.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro'.nome.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Registro'.nome.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro'.nome.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Registro",
-                "type": "'Tela Registro'.nome"
+                "module": "Tela NovoCadastro",
+                "type": "'Tela NovoCadastro'.nome"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Registro'.email.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro'.email.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Registro'.email.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro'.email.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Registro",
-                "type": "'Tela Registro'.email"
+                "module": "Tela NovoCadastro",
+                "type": "'Tela NovoCadastro'.email"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Registro'.sap.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro'.sap.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Registro'.sap.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro'.sap.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Registro",
-                "type": "'Tela Registro'.sap"
+                "module": "Tela NovoCadastro",
+                "type": "'Tela NovoCadastro'.sap"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Registro'.dropdownRegional.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownRegional.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Registro'.dropdownRegional.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownRegional.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Registro",
-                "type": "'Tela Registro'.dropdownRegional"
+                "module": "Tela NovoCadastro",
+                "type": "'Tela NovoCadastro'.dropdownRegional"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Registro'.dropdownUnidade.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownUnidade.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Registro'.dropdownUnidade.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownUnidade.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Registro",
-                "type": "'Tela Registro'.dropdownUnidade"
+                "module": "Tela NovoCadastro",
+                "type": "'Tela NovoCadastro'.dropdownUnidade"
               }
             }
           ],
