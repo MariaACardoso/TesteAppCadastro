@@ -1,0 +1,222 @@
+"'Tela Inicial TI' As screen":
+    Fill: =RGBA(237, 237, 237, 1)
+    LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
+
+    imgUser As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =230
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =User().Image
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =Self.Height
+        RadiusBottomRight: =Self.Height
+        RadiusTopLeft: =Self.Height
+        RadiusTopRight: =Self.Height
+        Width: =230
+        X: =594
+        Y: =82
+        ZIndex: =2
+
+    lblNomeUser As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Size: =28
+        Text: =User().FullName
+        Width: =323
+        X: =548
+        Y: =389
+        ZIndex: =3
+
+    lblOla As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Lighter
+        Height: =42
+        Size: =20
+        Text: ="Olá,"
+        Width: =323
+        X: =547
+        Y: =347
+        ZIndex: =4
+
+    btnExcluirCadastro As button:
+        BorderColor: =RGBA(202, 202, 202, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(149, 149, 149, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =66
+        HoverBorderColor: =RGBA(149, 149, 149, 1)
+        HoverColor: =RGBA(30, 45, 62, 1)
+        HoverFill: =RGBA(237, 237, 237, 1)
+        OnSelect: =Navigate('Tela NovoCadastro',ScreenTransition.Fade)
+        PressedBorderColor: =
+        PressedColor: =RGBA(30, 45, 62, 1)
+        PressedFill: =RGBA(219, 219, 219, 1)
+        RadiusBottomLeft: =180
+        RadiusBottomRight: =180
+        RadiusTopLeft: =180
+        RadiusTopRight: =180
+        Size: =18
+        Text: |-
+            ="Excluir cadastro
+            "
+        Width: =210
+        X: =935
+        Y: =546
+        ZIndex: =7
+
+    GroupNovoCadastroTI As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =9
+
+        btnNovoCadastroTI As button:
+            BorderColor: =RGBA(202, 202, 202, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(149, 149, 149, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =66
+            HoverBorderColor: =RGBA(149, 149, 149, 1)
+            HoverColor: =RGBA(30, 45, 62, 1)
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: =Navigate('Tela NovoCadastro',ScreenTransition.Fade)
+            PressedBorderColor: =
+            PressedColor: =RGBA(30, 45, 62, 1)
+            PressedFill: =RGBA(219, 219, 219, 1)
+            RadiusBottomLeft: =180
+            RadiusBottomRight: =180
+            RadiusTopLeft: =180
+            RadiusTopRight: =180
+            Size: =18
+            Text: ="Novo cadastro"
+            Width: =210
+            X: =285
+            Y: =546
+            ZIndex: =5
+
+        icnNovoCadastroTI As icon.AddUser:
+            BorderColor: =RGBA(85, 106, 129, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =55
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.AddUser
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =46
+            X: =367
+            Y: =504
+            ZIndex: =8
+
+    Icon5 As icon.CancelBadge:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =42
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.CancelBadge
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =44
+        X: =1018
+        Y: =510
+        ZIndex: =10
+
+    GroupEditarCadastroTI As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =10
+
+        btnEditarCadastroTI As button:
+            BorderColor: =RGBA(202, 202, 202, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(149, 149, 149, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =66
+            HoverBorderColor: =RGBA(149, 149, 149, 1)
+            HoverColor: =RGBA(30, 45, 62, 1)
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: =Navigate('Tela NovoCadastro',ScreenTransition.Fade)
+            PressedBorderColor: =
+            PressedColor: =RGBA(30, 45, 62, 1)
+            PressedFill: =RGBA(219, 219, 219, 1)
+            RadiusBottomLeft: =180
+            RadiusBottomRight: =180
+            RadiusTopLeft: =180
+            RadiusTopRight: =180
+            Size: =18
+            Text: |-
+                ="Editar cadastro
+                "
+            Width: =210
+            X: =612
+            Y: =546
+            ZIndex: =6
+
+        icnEditarCadastroTI As icon.Edit:
+            BorderColor: =RGBA(85, 106, 129, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =57
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Edit
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =44
+            X: =693
+            Y: =504
+            ZIndex: =9
+
