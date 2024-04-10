@@ -5,31 +5,30 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "btnEnviar": 17,
-    "Button1": 23,
-    "Button2": 6,
+    "Button1": 9,
+    "Button1_1": 24,
     "Component1": 4,
-    "dropdownRegional": 14,
-    "dropdownUnidade": 16,
-    "email": 10,
-    "Group2": 18,
+    "dropdownRegional": 19,
+    "dropdownUnidade": 21,
+    "email": 15,
+    "Group2": 23,
     "Host": 3,
-    "imgUser": 20,
-    "lblEmail": 9,
-    "lblNome": 7,
-    "lblNomeUser": 21,
-    "lblOla": 22,
-    "lblRegional": 13,
-    "lblSap": 11,
-    "lblUnidade": 15,
-    "nome": 8,
-    "sap": 12,
-    "Tela Inicial": 19,
-    "Tela Registro": 5
+    "imgUser": 6,
+    "lblEmail": 14,
+    "lblNome": 12,
+    "lblNomeUser": 8,
+    "lblOla": 7,
+    "lblRegional": 18,
+    "lblSap": 16,
+    "lblUnidade": 20,
+    "nome": 13,
+    "sap": 17,
+    "Tela Inicial": 5,
+    "Tela Registro": 10
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "04/10/2024 13:12:13",
+  "HeaderLastSavedDateTimeUTC": "04/10/2024 13:25:18",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "a7181703-4d3c-4d11-9101-cc9302b9979d": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/3dbb4186561c4be79e69f1fac7fad12a\""
@@ -39,7 +38,7 @@
     "MicrosoftTeams-image": "55b8a142-7f24-407f-a225-483246d43a77.png"
   },
   "LocalResourceRootPaths": {
-    "MicrosoftTeams-image": "https://docserverpwaprodneu.blob.core.windows.net/ac62225f-cd8d-40cb-8344-0c36654a6bbf-1/resource/e96a421e-8936-41e2-8e8f-7f80ba66dd86.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-10T13%3A11%3A43Z&ske=2024-04-11T13%3A26%3A43Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-11T13%3A26%3A43Z&sr=b&sp=r&sig=w1vhZn73fO335xjGfif6oUl1ZyqQRaU%2BghtYkCfOWXw%3D"
+    "MicrosoftTeams-image": "https://docserverpwaprodneu.blob.core.windows.net/2184e3fd-3e15-49bb-b0cf-1a4d748fe764-1/resource/Assets0Images055b8a142-7f24-407f-a225-483246d43a77.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-04-10T13%3A22%3A38Z&ske=2024-04-11T13%3A37%3A38Z&sks=b&skv=2022-11-02&sv=2022-11-02&spr=https&se=2024-04-11T13%3A37%3A38Z&sr=b&sp=r&sig=rOa3Y%2Fx2Hrq8uAJYbeAJQJBOn%2FUujW%2FC%2FwSZlnqbigU%3D"
   },
   "OrderComponentMetadata": {
     "822d3f6fcace4ff1b98560fbc8bd35f9": 0
@@ -54,15 +53,14 @@
   },
   "OrderGroupControls": {
     "Group2": {
-      "btnEnviar": 3,
-      "dropdownRegional": 5,
-      "dropdownUnidade": 4,
+      "dropdownRegional": 4,
+      "dropdownUnidade": 3,
       "email": 0,
-      "lblEmail": 7,
-      "lblNome": 6,
-      "lblRegional": 9,
-      "lblSap": 8,
-      "lblUnidade": 10,
+      "lblEmail": 6,
+      "lblNome": 5,
+      "lblRegional": 8,
+      "lblSap": 7,
+      "lblUnidade": 9,
       "nome": 1,
       "sap": 2
     }
@@ -70,17 +68,16 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 0,
-    "dropdown": 3,
-    "image": 4,
+    "button": 2,
+    "dropdown": 4,
+    "image": 0,
     "label": 1,
-    "text": 2
+    "text": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "btnEnviar": {},
     "Button1": {},
-    "Button2": {},
+    "Button1_1": {},
     "Component1": {},
     "dropdownRegional": {},
     "dropdownUnidade": {},
@@ -104,9 +101,8 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "btnEnviar": 16,
     "Button1": 3,
-    "Button2": 4,
+    "Button1_1": 3,
     "Component1": 0,
     "dropdownRegional": 13,
     "dropdownUnidade": 15,
@@ -133,17 +129,18 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1281807,
+    "AnalysisLoadTime": 0.1562359,
     "ControlCount": {
       "822d3f6fcace4ff1b98560fbc8bd35f9": 1,
-      "button": 2,
+      "button": 4,
       "dropdown": 2,
       "group": 1,
+      "image": 1,
       "label": 7,
-      "screen": 1,
+      "screen": 2,
       "text": 3
     },
-    "DeserializationLoadTime": 0.6152723
+    "DeserializationLoadTime": 0.7607
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
