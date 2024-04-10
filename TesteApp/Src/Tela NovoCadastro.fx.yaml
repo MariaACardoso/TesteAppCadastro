@@ -11,8 +11,8 @@
         HoverFill: =RGBA(219, 219, 219, 1)
         PressedFill: =RGBA(219, 219, 219, 1)
         Width: =382
-        X: =492
-        Y: =12
+        X: =497
+        Y: =41
         ZIndex: =1
 
     rectNovoCadastro As rectangle:
@@ -25,8 +25,8 @@
         HoverFill: =RGBA(219, 219, 219, 1)
         PressedFill: =RGBA(219, 219, 219, 1)
         Width: =382
-        X: =481
-        Y: =27
+        X: =486
+        Y: =56
         ZIndex: =13
 
     lblNovoCadastro As label:
@@ -44,8 +44,8 @@
         Size: =26
         Text: ="Novo cadastro"
         Width: =256
-        X: =544
-        Y: =42
+        X: =549
+        Y: =71
         ZIndex: =14
 
     Group2 As group:
@@ -76,8 +76,8 @@
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =13
-            X: =523
-            Y: =275
+            X: =528
+            Y: =304
             ZIndex: =2
 
         nome As text:
@@ -101,8 +101,8 @@
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =13
-            X: =523
-            Y: =188
+            X: =528
+            Y: =217
             ZIndex: =3
 
         sap As text:
@@ -126,8 +126,8 @@
             RadiusTopLeft: =0
             RadiusTopRight: =0
             Size: =13
-            X: =523
-            Y: =363
+            X: =528
+            Y: =392
             ZIndex: =4
 
         dropdownUnidade As dropdown:
@@ -158,8 +158,8 @@
             SelectionFill: =RGBA(149, 149, 149, 1)
             Size: =13
             Width: =320
-            X: =523
-            Y: =542
+            X: =528
+            Y: =571
             ZIndex: =5
 
         dropdownRegional As dropdown:
@@ -190,8 +190,8 @@
             SelectionFill: =RGBA(116, 116, 116, 1)
             Size: =13
             Width: =320
-            X: =523
-            Y: =452
+            X: =528
+            Y: =481
             ZIndex: =6
 
         lblNome As label:
@@ -206,8 +206,8 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Nome"
-            X: =523
-            Y: =148
+            X: =528
+            Y: =177
             ZIndex: =7
 
         lblEmail As label:
@@ -222,8 +222,8 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Email"
-            X: =523
-            Y: =235
+            X: =528
+            Y: =264
             ZIndex: =8
 
         lblSap As label:
@@ -238,8 +238,8 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Sap"
-            X: =523
-            Y: =322
+            X: =528
+            Y: =351
             ZIndex: =9
 
         lblRegional As label:
@@ -254,8 +254,8 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Regional"
-            X: =523
-            Y: =412
+            X: =528
+            Y: =441
             ZIndex: =10
 
         lblUnidade As label:
@@ -270,8 +270,8 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Unidade"
-            X: =523
-            Y: =503
+            X: =528
+            Y: =532
             ZIndex: =11
 
     Group1 As group:
@@ -318,8 +318,8 @@
                 ="Enviar
                 "
             Width: =147
-            X: =630
-            Y: =653
+            X: =635
+            Y: =682
             ZIndex: =12
 
         icnEnviar As icon.AddUser:
@@ -338,7 +338,68 @@
             PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =44
-            X: =576
-            Y: =657
+            X: =581
+            Y: =686
             ZIndex: =15
+
+    btnEnviar_1 As button:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =43
+        HoverBorderColor: =RGBA(149, 149, 149, 1)
+        HoverColor: =RGBA(30, 45, 62, 1)
+        HoverFill: =RGBA(237, 237, 237, 1)
+        OnSelect: |-
+            =
+            Patch(
+                DB_Controle,
+                Defaults(DB_Controle),
+                {
+                    Title: nome.Text,
+                    Email: email.Text,
+                    Sap: sap.Text
+                        }
+            );
+        PressedBorderColor: =
+        PressedColor: =RGBA(30, 45, 62, 1)
+        PressedFill: =RGBA(149, 149, 149, 1)
+        RadiusBottomLeft: =180
+        RadiusBottomRight: =180
+        RadiusTopLeft: =180
+        RadiusTopRight: =180
+        Size: =16
+        Text: |-
+            ="Voltar
+            "
+        Width: =147
+        X: =65
+        Y: =41
+        ZIndex: =16
+
+    Icon2 As icon.BackArrow:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        Color: =RGBA(116, 116, 116, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(116, 116, 116, 1)
+        FocusedBorderThickness: =4
+        Height: =42
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(116, 116, 116, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.BackArrow
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =35
+        X: =15
+        Y: =42
+        ZIndex: =17
 
