@@ -48,74 +48,6 @@
         Y: =71
         ZIndex: =14
 
-    GroupEnviar_1 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =15
-
-        btnEnviar_1 As button:
-            BorderColor: =RGBA(116, 116, 116, 1)
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =43
-            HoverBorderColor: =RGBA(149, 149, 149, 1)
-            HoverColor: =RGBA(30, 45, 62, 1)
-            HoverFill: =RGBA(237, 237, 237, 1)
-            OnSelect: |-
-                =
-                Patch(
-                    DB_Controle,
-                    Defaults(DB_Controle),
-                    {
-                        Title: nome_1.Text,
-                        Email: email_1.Text,
-                        Sap: sap_1.Text
-                            }
-                );
-            PressedBorderColor: =
-            PressedColor: =RGBA(30, 45, 62, 1)
-            PressedFill: =RGBA(149, 149, 149, 1)
-            RadiusBottomLeft: =180
-            RadiusBottomRight: =180
-            RadiusTopLeft: =180
-            RadiusTopRight: =180
-            Size: =16
-            Text: |-
-                ="Salvar
-                "
-            Width: =147
-            X: =641
-            Y: =682
-            ZIndex: =12
-
-        icnEnviar_1 As icon.AddUser:
-            BorderColor: =RGBA(85, 106, 129, 1)
-            Color: =RGBA(116, 116, 116, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(0, 0, 0, 0)
-            DisabledFill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =35
-            HoverBorderColor: =RGBA(0, 0, 0, 0)
-            HoverColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Icon: =Icon.AddUser
-            PressedBorderColor: =RGBA(0, 0, 0, 0)
-            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            Width: =44
-            X: =587
-            Y: =686
-            ZIndex: =15
-
     imgUserEdC As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -438,4 +370,72 @@
             X: =497
             Y: =175
             ZIndex: =19
+
+    "'GroupSalvar EdC' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =21
+
+        "'btnSalvar EdC' As button":
+            BorderColor: =RGBA(116, 116, 116, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =43
+            HoverBorderColor: =RGBA(149, 149, 149, 1)
+            HoverColor: =RGBA(30, 45, 62, 1)
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: |-
+                =
+                Patch(
+                    DB_Controle,
+                    Defaults(DB_Controle),
+                    {
+                        Title: nome_1.Text,
+                        Email: email_1.Text,
+                        Sap: sap_1.Text
+                            }
+                );
+            PressedBorderColor: =
+            PressedColor: =RGBA(30, 45, 62, 1)
+            PressedFill: =RGBA(149, 149, 149, 1)
+            RadiusBottomLeft: =180
+            RadiusBottomRight: =180
+            RadiusTopLeft: =180
+            RadiusTopRight: =180
+            Size: =16
+            Text: |-
+                ="Salvar
+                "
+            Width: =147
+            X: =649
+            Y: =682
+            ZIndex: =12
+
+        "'icnSalvar EdC' As icon.Check":
+            BorderColor: =RGBA(85, 106, 129, 1)
+            Color: =RGBA(116, 116, 116, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(116, 116, 116, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =43
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(116, 116, 116, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Check
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =44
+            X: =592
+            Y: =682
+            ZIndex: =20
 

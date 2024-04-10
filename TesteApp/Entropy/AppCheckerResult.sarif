@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.nome.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.nome.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro",
-                "type": "'Tela NovoCadastro'.nome"
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.nome"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.email.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.email.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.email.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.email.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro",
-                "type": "'Tela NovoCadastro'.email"
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.email"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.sap.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.sap.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.sap.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.sap.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro",
-                "type": "'Tela NovoCadastro'.sap"
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.sap"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownRegional.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownRegional.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownRegional.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownRegional.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro",
-                "type": "'Tela NovoCadastro'.dropdownRegional"
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.dropdownRegional"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownUnidade.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownUnidade.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro'.dropdownUnidade.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownUnidade.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro",
-                "type": "'Tela NovoCadastro'.dropdownUnidade"
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.dropdownUnidade"
               }
             }
           ],

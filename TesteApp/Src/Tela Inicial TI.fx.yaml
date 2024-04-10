@@ -2,6 +2,19 @@
     Fill: =RGBA(237, 237, 237, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
 
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        BorderThickness: =3
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        DisplayMode: =DisplayMode.Disabled
+        Fill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =768
+        HoverFill: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =1366
+        ZIndex: =1
+
     imgUser As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -111,7 +124,7 @@
             HoverBorderColor: =RGBA(149, 149, 149, 1)
             HoverColor: =RGBA(30, 45, 62, 1)
             HoverFill: =RGBA(237, 237, 237, 1)
-            OnSelect: =Navigate('Tela NovoCadastro',ScreenTransition.Fade)
+            OnSelect: =Navigate('Tela NovoCadastro NC',ScreenTransition.Fade)
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(219, 219, 219, 1)
