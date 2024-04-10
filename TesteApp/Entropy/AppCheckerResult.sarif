@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.nome_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.email_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.nome_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.email_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela EditarCadastro EdC",
-                "type": "'Tela EditarCadastro EdC'.nome_1"
+                "type": "'Tela EditarCadastro EdC'.email_1"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.email_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.nome_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.email_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.nome_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela EditarCadastro EdC",
-                "type": "'Tela EditarCadastro EdC'.email_1"
+                "type": "'Tela EditarCadastro EdC'.nome_1"
               }
             }
           ],
@@ -254,6 +254,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.dropdownUnidade_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.dropdownUnidade_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela EditarCadastro EdC",
+                "type": "'Tela EditarCadastro EdC'.dropdownUnidade_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Tela EditarCadastro EdC'.dropdownRegional_1.AccessibleLabel"
                 }
               ],
@@ -284,19 +314,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.dropdownUnidade_1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.dropdownUnidade_1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela EditarCadastro EdC",
-                "type": "'Tela EditarCadastro EdC'.dropdownUnidade_1"
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.Gallery1"
               }
             }
           ],
@@ -337,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 1
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -360,6 +420,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             },
             {

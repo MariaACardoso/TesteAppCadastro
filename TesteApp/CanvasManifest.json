@@ -137,6 +137,7 @@
   "ScreenOrder": [
     "Tela Inicial TI",
     "Tela NovoCadastro NC",
+    "Tela NovoCadastro NC_1",
     "Tela EditarCadastro EdC",
     "Tela ExcluirCadastro ExC"
   ]
