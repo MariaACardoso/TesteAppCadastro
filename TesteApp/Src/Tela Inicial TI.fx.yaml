@@ -74,7 +74,7 @@
         HoverBorderColor: =RGBA(149, 149, 149, 1)
         HoverColor: =RGBA(30, 45, 62, 1)
         HoverFill: =RGBA(237, 237, 237, 1)
-        OnSelect: =Navigate('Tela NovoCadastro',ScreenTransition.Fade)
+        OnSelect: =Navigate('Tela ExcluirCadastro ExC',ScreenTransition.Fade)
         PressedBorderColor: =
         PressedColor: =RGBA(30, 45, 62, 1)
         PressedFill: =RGBA(219, 219, 219, 1)
@@ -184,7 +184,7 @@
             HoverBorderColor: =RGBA(149, 149, 149, 1)
             HoverColor: =RGBA(30, 45, 62, 1)
             HoverFill: =RGBA(237, 237, 237, 1)
-            OnSelect: =Navigate('Tela NovoCadastro',ScreenTransition.Fade)
+            OnSelect: =Navigate('Tela EditarCadastro EdC',ScreenTransition.Fade)
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(219, 219, 219, 1)
