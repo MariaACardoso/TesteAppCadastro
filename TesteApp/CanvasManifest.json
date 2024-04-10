@@ -136,6 +136,8 @@
   },
   "ScreenOrder": [
     "Tela Inicial TI",
-    "Tela NovoCadastro"
+    "Tela NovoCadastro",
+    "Tela EditarCadastro EdC",
+    "Tela ExcluirCadastro ExC"
   ]
 }

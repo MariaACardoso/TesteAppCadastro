@@ -1,8 +1,8 @@
-"'Tela NovoCadastro' As screen":
+"'Tela EditarCadastro EdC' As screen":
     Fill: =RGBA(237, 237, 237, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
 
-    rectNovoCadastro_1 As rectangle:
+    rectEditarCadastro3 As rectangle:
         BorderColor: =RGBA(116, 116, 116, 1)
         BorderThickness: =2
         DisabledFill: =RGBA(166, 166, 166, 1)
@@ -15,7 +15,7 @@
         Y: =42
         ZIndex: =1
 
-    rectNovoCadastro As rectangle:
+    rectEditarCadastro2 As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         BorderThickness: =2
@@ -29,7 +29,7 @@
         Y: =56
         ZIndex: =13
 
-    lblNovoCadastro As label:
+    lblEditarCadastro As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -42,20 +42,20 @@
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =26
-        Text: ="Novo Cadastro"
-        Width: =256
-        X: =560
+        Text: ="Editar Cadastro"
+        Width: =277
+        X: =549
         Y: =71
         ZIndex: =14
 
-    GroupSalvar As group:
+    GroupEnviar_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =15
 
-        btnSalvar As button:
+        btnEnviar_1 As button:
             BorderColor: =RGBA(116, 116, 116, 1)
             Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -75,9 +75,9 @@
                     DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Title: nome.Text,
-                        Email: email.Text,
-                        Sap: sap.Text
+                        Title: nome_1.Text,
+                        Email: email_1.Text,
+                        Sap: sap_1.Text
                             }
                 );
             PressedBorderColor: =
@@ -96,7 +96,7 @@
             Y: =682
             ZIndex: =12
 
-        icnSalvar As icon.AddUser:
+        icnEnviar_1 As icon.AddUser:
             BorderColor: =RGBA(85, 106, 129, 1)
             Color: =RGBA(116, 116, 116, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -116,7 +116,7 @@
             Y: =686
             ZIndex: =15
 
-    imgUser_1 As image:
+    imgUserEdC As image:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -137,14 +137,14 @@
         Y: =42
         ZIndex: =18
 
-    GroupVoltar As group:
+    GroupVoltarEdC As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =18
 
-        btnVoltar As button:
+        btnVoltarEdC As button:
             BorderColor: =RGBA(116, 116, 116, 1)
             Color: =RGBA(0, 0, 0, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -175,7 +175,7 @@
             Y: =41
             ZIndex: =16
 
-        icnVoltar As icon.BackArrow:
+        icnVoltarEdC As icon.BackArrow:
             BorderColor: =RGBA(85, 106, 129, 1)
             Color: =RGBA(116, 116, 116, 1)
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -195,14 +195,14 @@
             Y: =42
             ZIndex: =17
 
-    GroupNovoCadastro As group:
+    GroupEditarCadastroEdC As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =20
 
-        email As text:
+        email_1 As text:
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
             Default: =""
@@ -229,7 +229,7 @@
             Y: =304
             ZIndex: =2
 
-        nome As text:
+        nome_1 As text:
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
             Default: =""
@@ -255,7 +255,7 @@
             Y: =217
             ZIndex: =3
 
-        sap As text:
+        sap_1 As text:
             BorderThickness: =2
             Color: =RGBA(255, 255, 255, 1)
             Default: =""
@@ -282,7 +282,7 @@
             Y: =392
             ZIndex: =4
 
-        dropdownUnidade As dropdown:
+        dropdownUnidade_1 As dropdown:
             BorderColor: =RGBA(0, 0, 0, 1)
             ChevronBackground: =RGBA(116, 116, 116, 1)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -297,7 +297,7 @@
             HoverBorderColor: =RGBA(202, 202, 202, 1)
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =RGBA(0, 0, 0, 0)
-            Items: =Filter(DB_Regionais, Regionais = dropdownRegional.SelectedText.Value)
+            Items: =Filter(DB_Regionais, Regionais = dropdownRegional_1.SelectedText.Value)
             PaddingBottom: =5
             PaddingLeft: =12
             PaddingRight: =5
@@ -313,7 +313,7 @@
             Y: =572
             ZIndex: =5
 
-        dropdownRegional As dropdown:
+        dropdownRegional_1 As dropdown:
             BorderColor: =RGBA(0, 0, 0, 1)
             ChevronBackground: =RGBA(116, 116, 116, 1)
             ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
@@ -345,7 +345,7 @@
             Y: =479
             ZIndex: =6
 
-        lblNome As label:
+        lblNome_1 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -361,7 +361,7 @@
             Y: =177
             ZIndex: =7
 
-        lblEmail As label:
+        lblEmail_1 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -377,7 +377,7 @@
             Y: =264
             ZIndex: =8
 
-        lblSap As label:
+        lblSap_1 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -393,7 +393,7 @@
             Y: =352
             ZIndex: =9
 
-        lblRegional As label:
+        lblRegional_1 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -409,7 +409,7 @@
             Y: =437
             ZIndex: =10
 
-        lblUnidade As label:
+        lblUnidade_1 As label:
             BorderColor: =RGBA(0, 0, 0, 0)
             BorderStyle: =BorderStyle.None
             BorderThickness: =2
@@ -425,7 +425,7 @@
             Y: =532
             ZIndex: =11
 
-        rectNovoCadastro_2 As rectangle:
+        rectEditarCadastro As rectangle:
             BorderColor: =RGBA(219, 219, 219, 1)
             BorderThickness: =2
             DisabledFill: =RGBA(166, 166, 166, 1)
