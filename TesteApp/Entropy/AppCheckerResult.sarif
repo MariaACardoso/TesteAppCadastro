@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.nome.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela Registro'.nome.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.nome.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela Registro'.nome.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.nome"
+                "module": "Tela Registro",
+                "type": "'Tela Registro'.nome"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.email.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela Registro'.email.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.email.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela Registro'.email.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.email"
+                "module": "Tela Registro",
+                "type": "'Tela Registro'.email"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.sap.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela Registro'.sap.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.sap.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela Registro'.sap.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.sap"
+                "module": "Tela Registro",
+                "type": "'Tela Registro'.sap"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.dropdownRegional.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela Registro'.dropdownRegional.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.dropdownRegional.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela Registro'.dropdownRegional.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.dropdownRegional"
+                "module": "Tela Registro",
+                "type": "'Tela Registro'.dropdownRegional"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela Inicial'.dropdownUnidade.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela Registro'.dropdownUnidade.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela Inicial'.dropdownUnidade.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela Registro'.dropdownUnidade.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela Inicial",
-                "type": "'Tela Inicial'.dropdownUnidade"
+                "module": "Tela Registro",
+                "type": "'Tela Registro'.dropdownUnidade"
               }
             }
           ],
@@ -158,6 +158,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.MicrosoftTeams-image"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.MicrosoftTeams-image",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "MicrosoftTeams-image",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 1
         }
       ],
       "tool": {
@@ -180,6 +210,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
+              "id": "app-UnusedMediaResources",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused media files"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused media file in the Media pane."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],

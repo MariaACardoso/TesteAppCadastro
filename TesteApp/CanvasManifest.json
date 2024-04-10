@@ -135,6 +135,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Tela Inicial"
+    "Tela Inicial",
+    "Tela Registro"
   ]
 }
