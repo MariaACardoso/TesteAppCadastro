@@ -25,10 +25,10 @@
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =232
-        Width: =400
+        Width: =518
         WrapCount: =2
-        X: =836
-        Y: =227
+        X: =800
+        Y: =212
         ZIndex: =1
 
         Image4 As image:
