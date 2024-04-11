@@ -101,7 +101,7 @@
       "zeroalltabindexes": true
     },
     "Author": "",
-    "BindingErrorCount": 17,
+    "BindingErrorCount": 44,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -137,6 +137,7 @@
   "ScreenOrder": [
     "Tela Inicial TI",
     "Tela NovoCadastro NC",
+    "teste",
     "Tela NovoCadastro NC_1",
     "Tela EditarCadastro EdC",
     "Tela ExcluirCadastro ExC"
