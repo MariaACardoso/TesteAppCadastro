@@ -1409,6 +1409,86 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": "coll_teste"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "coll_teste"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Clear(coll_teste)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Clear"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Tela EditarCadastro EdC'.Gallery3.Items"
                 }
               ],
