@@ -14,1482 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 73,
-                  "snippet": {
-                    "text": "nome_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "nome_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 79,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 101,
-                  "snippet": {
-                    "text": "email_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "email_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 108,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 128,
-                  "snippet": {
-                    "text": "sap_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "sap_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 133,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 153,
-                  "charOffset": 1,
-                  "snippet": {
-                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 96,
-                  "charOffset": 56,
-                  "snippet": {
-                    "text": "{\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Email",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 71,
-                  "snippet": {
-                    "text": "nome_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "nome_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 77,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 99,
-                  "snippet": {
-                    "text": "email_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "email_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 106,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 125,
-                  "snippet": {
-                    "text": "sap_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "sap_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 130,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 155,
-                  "snippet": {
-                    "text": "dropdownRegional_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "dropdownRegional_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 173,
-                  "snippet": {
-                    "text": ". Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 183,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 209,
-                  "snippet": {
-                    "text": "dropdownUnidade_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "dropdownUnidade_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 226,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 235,
-                  "snippet": {
-                    "text": ".Unidade"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 270,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 213,
-                  "charOffset": 55,
-                  "snippet": {
-                    "text": "{\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'icnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Email",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 71,
-                  "snippet": {
-                    "text": "nome_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "nome_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 77,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 99,
-                  "snippet": {
-                    "text": "email_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "email_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 106,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 125,
-                  "snippet": {
-                    "text": "sap_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "sap_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 5,
-                  "charOffset": 130,
-                  "snippet": {
-                    "text": ".Text"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 18,
-                  "charOffset": 155,
-                  "snippet": {
-                    "text": "dropdownRegional_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "dropdownRegional_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 10,
-                  "charOffset": 173,
-                  "snippet": {
-                    "text": ". Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 183,
-                  "snippet": {
-                    "text": ".Value"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 17,
-                  "charOffset": 209,
-                  "snippet": {
-                    "text": "dropdownUnidade_1"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "dropdownUnidade_1"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 9,
-                  "charOffset": 226,
-                  "snippet": {
-                    "text": ".Selected"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 8,
-                  "charOffset": 235,
-                  "snippet": {
-                    "text": ".Unidade"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 270,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Patch"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 213,
-                  "charOffset": 55,
-                  "snippet": {
-                    "text": "{\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "teste",
-                "type": "teste.'btnSalvar NC_2'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Email",
-              "Text",
-              "Error"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charOffset": 271,
-                  "snippet": {
-                    "text": ""
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Eof",
-              "ParenClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 260,
-                  "snippet": {
-                    "text": "("
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "1",
-              "2"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadArity",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Tela EditarCadastro EdC'.Gallery3.Items"
                 }
               ],
@@ -1523,7 +47,47 @@
             "level": "Medium"
           },
           "ruleId": "app-SuggestRemoteExecutionHint",
-          "ruleIndex": 6
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.Gallery3.Title3.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.Gallery3.Title3.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Título"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Tela EditarCadastro EdC",
+                "type": "'Tela EditarCadastro EdC'.Gallery3.Title3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Título"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1540,7 +104,7 @@
                 },
                 "region": {
                   "charLength": 6,
-                  "charOffset": 73,
+                  "charOffset": 74,
                   "snippet": {
                     "text": "nome_1"
                   }
@@ -1563,7 +127,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1580,7 +144,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 79,
+                  "charOffset": 80,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -1600,7 +164,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1617,7 +181,7 @@
                 },
                 "region": {
                   "charLength": 7,
-                  "charOffset": 101,
+                  "charOffset": 102,
                   "snippet": {
                     "text": "email_1"
                   }
@@ -1640,7 +204,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1657,7 +221,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 108,
+                  "charOffset": 109,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -1677,7 +241,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1694,7 +258,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 128,
+                  "charOffset": 129,
                   "snippet": {
                     "text": "sap_1"
                   }
@@ -1717,7 +281,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -1734,7 +298,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 133,
+                  "charOffset": 134,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -1754,7 +318,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidDot",
-          "ruleIndex": 1
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1770,10 +334,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 153,
+                  "charLength": 154,
                   "charOffset": 1,
                   "snippet": {
-                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }\n)"
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Título: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }\n)"
                   }
                 }
               },
@@ -1794,7 +358,7 @@
             "level": "High"
           },
           "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 2
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -1810,10 +374,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 96,
+                  "charLength": 97,
                   "charOffset": 56,
                   "snippet": {
-                    "text": "{\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }"
+                    "text": "{\n        Título: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }"
                   }
                 }
               },
@@ -1836,6 +400,86 @@
             "level": "High"
           },
           "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": "coll_teste"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "coll_teste"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.OnVisible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Clear(coll_teste)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnVisible",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Clear"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 3
         },
         {
@@ -1843,49 +487,268 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 232,
+                  "snippet": {
+                    "text": "coll_teste"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "coll_teste"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 137,
+                  "charOffset": 225,
+                  "snippet": {
+                    "text": "ForAll(coll_teste,\n        Patch(DB_Controle,\n        Defaults(DB_Controle),\n        {\n            Apps_Selecionados: ID\n        })\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ForAll"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 2,
+                  "charOffset": 343,
+                  "snippet": {
+                    "text": "ID"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ID"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 104,
+                  "charOffset": 252,
+                  "snippet": {
+                    "text": "Patch(DB_Controle,\n        Defaults(DB_Controle),\n        {\n            Apps_Selecionados: ID\n        })"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'btnSalvar NC'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 45,
+                  "charOffset": 310,
+                  "snippet": {
+                    "text": "{\n            Apps_Selecionados: ID\n        }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'btnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Apps_Selecionados",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 74,
+                  "snippet": {
+                    "text": "nome_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
                 "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.Gallery1"
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "nome_1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.TabIndex"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.TabIndex",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 80,
+                  "snippet": {
+                    "text": ".Text"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "OnSelect",
                 "module": "Tela NovoCadastro NC_1",
-                "type": "'Tela NovoCadastro NC_1'.Gallery1"
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
               }
             }
           ],
@@ -1893,119 +756,392 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 102,
+                  "snippet": {
+                    "text": "email_1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "email_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 109,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 129,
+                  "snippet": {
+                    "text": "sap_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "sap_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 134,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 154,
+                  "charOffset": 1,
+                  "snippet": {
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Título: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 97,
+                  "charOffset": 56,
+                  "snippet": {
+                    "text": "{\n        Título: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.'btnSalvar NC_1'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Email",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.Default"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.Default",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Título"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Default",
                 "module": "teste",
-                "type": "teste.Form1.Title_DataCard2.DataCardValue11"
+                "type": "teste.Form1.Title_DataCard2"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Título"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Unidade_DataCard3.DataCardValue12.AccessibleLabel"
+                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.Default"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Unidade_DataCard3.DataCardValue12.AccessibleLabel",
+                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.Default",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Anexos"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "Default",
                 "module": "teste",
-                "type": "teste.Form1.Unidade_DataCard3.DataCardValue12"
+                "type": "teste.Form1.Attachments_DataCard2"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Anexos"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": "nome_1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "teste",
-                "type": "teste.Form1.Email_DataCard2.DataCardValue13"
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "nome_1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 77,
+                  "snippet": {
+                    "text": ".Text"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "teste",
-                "type": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16"
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2013,59 +1149,76 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 99,
+                  "snippet": {
+                    "text": "email_1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "teste",
-                "type": "teste.Form1.Nome_DataCard2.DataCardValue17"
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "email_1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 106,
+                  "snippet": {
+                    "text": ".Text"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "teste",
-                "type": "teste.Form1.Attachments_DataCard2.DataCardValue18"
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2073,59 +1226,76 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Gallery2_1.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Gallery2_1.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 125,
+                  "snippet": {
+                    "text": "sap_1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
+                "member": "OnSelect",
                 "module": "teste",
-                "type": "teste.Gallery2_1"
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "sap_1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Gallery2_1.TabIndex"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Gallery2_1.TabIndex",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 130,
+                  "snippet": {
+                    "text": ".Text"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
+                "member": "OnSelect",
                 "module": "teste",
-                "type": "teste.Gallery2_1"
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2133,59 +1303,76 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 18,
+                  "charOffset": 155,
+                  "snippet": {
+                    "text": "dropdownRegional_1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.nome"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "dropdownRegional_1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 173,
+                  "snippet": {
+                    "text": ". Selected"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.Gallery2"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2193,29 +1380,36 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.TabIndex"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.TabIndex",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 183,
+                  "snippet": {
+                    "text": ".Value"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.Gallery2"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2223,59 +1417,76 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.email.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.email.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 209,
+                  "snippet": {
+                    "text": "dropdownUnidade_1"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.email"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "dropdownUnidade_1"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.sap.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.sap.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 226,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.sap"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2283,29 +1494,36 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownRegional.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownRegional.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 235,
+                  "snippet": {
+                    "text": ".Unidade"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.dropdownRegional"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
@@ -2313,89 +1531,158 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownUnidade.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownUnidade.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 270,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.dropdownUnidade"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Patch"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.AccessibleLabel"
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.AccessibleLabel",
+                  "fullyQualifiedName": "teste.'icnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 213,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": "{\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.'icnSalvar NC'"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'icnSalvar NC_2'"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "Email",
+              "Text",
+              "Error"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 4
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.TabIndex"
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.TabIndex",
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 71,
+                  "snippet": {
+                    "text": "nome_1"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.'icnSalvar NC'"
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "nome_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 77,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
               }
             }
           ],
@@ -2403,10 +1690,474 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 99,
+                  "snippet": {
+                    "text": "email_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "email_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 106,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 125,
+                  "snippet": {
+                    "text": "sap_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "sap_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 130,
+                  "snippet": {
+                    "text": ".Text"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 18,
+                  "charOffset": 155,
+                  "snippet": {
+                    "text": "dropdownRegional_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "dropdownRegional_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 10,
+                  "charOffset": 173,
+                  "snippet": {
+                    "text": ". Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 6,
+                  "charOffset": 183,
+                  "snippet": {
+                    "text": ".Value"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 17,
+                  "charOffset": 209,
+                  "snippet": {
+                    "text": "dropdownUnidade_1"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "dropdownUnidade_1"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 9,
+                  "charOffset": 226,
+                  "snippet": {
+                    "text": ".Selected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 235,
+                  "snippet": {
+                    "text": ".Unidade"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 270,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Patch"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.'btnSalvar NC_2'.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 213,
+                  "charOffset": 55,
+                  "snippet": {
+                    "text": "{\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "teste",
+                "type": "teste.'btnSalvar NC_2'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Email",
+              "Text",
+              "Error"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrTypeError-Arg-Expected-Found",
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -2436,7 +2187,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2466,7 +2217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 7
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2496,7 +2247,637 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 8
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.Gallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.GaleriaApps.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.GaleriaApps.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.GaleriaApps"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.GaleriaApps.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.GaleriaApps.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.GaleriaApps"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.nome"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.email.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.email.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.email"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.sap.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.sap.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.sap"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownRegional.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownRegional.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.dropdownRegional"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownUnidade.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.dropdownUnidade.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.dropdownUnidade"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'icnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.'icnSalvar NC'.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.'icnSalvar NC'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC_1'.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela NovoCadastro NC_1",
+                "type": "'Tela NovoCadastro NC_1'.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Title_DataCard2.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Unidade_DataCard3.DataCardValue12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Unidade_DataCard3.DataCardValue12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Unidade_DataCard3.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Email_DataCard2.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Nome_DataCard2.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Attachments_DataCard2.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Gallery2_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Gallery2_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Gallery2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Gallery2_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Gallery2_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "teste",
+                "type": "teste.Gallery2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -2526,7 +2907,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedVariables",
-          "ruleIndex": 9
+          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2556,7 +2937,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 10
+          "ruleIndex": 8
         }
       ],
       "tool": {
@@ -2564,6 +2945,25 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-SuggestRemoteExecutionHint",
+              "messageStrings": {
+                "issue": {
+                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
+                  "Try simplifying the formula.",
+                  "Try moving your data to a different data source."
+                ],
+                "level": "Medium",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "app-ErrInvalidName",
               "messageStrings": {
@@ -2619,56 +3019,6 @@
               "properties": {
                 "componentType": "app",
                 "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadArity",
-              "messageStrings": {
-                "issue": {
-                  "text": "Invalid number of arguments: received {0}, expected {1}."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-SuggestRemoteExecutionHint",
-              "messageStrings": {
-                "issue": {
-                  "text": "Delegation warning. The \"{0}\" part of this formula might not work correctly on large data sets."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "If your data set exceeds the 500 record limit but contains less than 2,000 records, try resetting the limit.",
-                  "Try simplifying the formula.",
-                  "Try moving your data to a different data source."
-                ],
-                "level": "Medium",
                 "primaryCategory": "formula",
                 "whyFix": ""
               }
