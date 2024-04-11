@@ -24,7 +24,7 @@
                 },
                 "region": {
                   "charLength": 6,
-                  "charOffset": 54,
+                  "charOffset": 56,
                   "snippet": {
                     "text": "\"Nome\""
                   }
@@ -64,7 +64,7 @@
                 },
                 "region": {
                   "charLength": 6,
-                  "charOffset": 74,
+                  "charOffset": 73,
                   "snippet": {
                     "text": "nome_1"
                   }
@@ -104,7 +104,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 80,
+                  "charOffset": 79,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -141,7 +141,7 @@
                 },
                 "region": {
                   "charLength": 7,
-                  "charOffset": 102,
+                  "charOffset": 101,
                   "snippet": {
                     "text": "email_1"
                   }
@@ -181,7 +181,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 109,
+                  "charOffset": 108,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -218,7 +218,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 129,
+                  "charOffset": 128,
                   "snippet": {
                     "text": "sap_1"
                   }
@@ -258,7 +258,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 134,
+                  "charOffset": 133,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -294,10 +294,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 154,
+                  "charLength": 153,
                   "charOffset": 1,
                   "snippet": {
-                    "text": "Patch(\n    DB_Controle;\n    Defaults(DB_Controle);\n    {\n        Título: nome_1.Text;\n        Email: email_1.Text;\n        Sap: sap_1.Text\n            }\n)"
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }\n)"
                   }
                 }
               },
@@ -334,10 +334,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 97,
+                  "charLength": 96,
                   "charOffset": 56,
                   "snippet": {
-                    "text": "{\n        Título: nome_1.Text;\n        Email: email_1.Text;\n        Sap: sap_1.Text\n            }"
+                    "text": "{\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }"
                   }
                 }
               },
@@ -377,7 +377,7 @@
                 },
                 "region": {
                   "charLength": 6,
-                  "charOffset": 74,
+                  "charOffset": 73,
                   "snippet": {
                     "text": "nome_1"
                   }
@@ -417,7 +417,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 80,
+                  "charOffset": 79,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -454,7 +454,7 @@
                 },
                 "region": {
                   "charLength": 7,
-                  "charOffset": 102,
+                  "charOffset": 101,
                   "snippet": {
                     "text": "email_1"
                   }
@@ -494,7 +494,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 109,
+                  "charOffset": 108,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -531,7 +531,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 129,
+                  "charOffset": 128,
                   "snippet": {
                     "text": "sap_1"
                   }
@@ -571,7 +571,7 @@
                 },
                 "region": {
                   "charLength": 5,
-                  "charOffset": 134,
+                  "charOffset": 133,
                   "snippet": {
                     "text": ".Text"
                   }
@@ -607,10 +607,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 154,
+                  "charLength": 153,
                   "charOffset": 1,
                   "snippet": {
-                    "text": "Patch(\n    DB_Controle;\n    Defaults(DB_Controle);\n    {\n        Título: nome_1.Text;\n        Email: email_1.Text;\n        Sap: sap_1.Text\n            }\n)"
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }\n)"
                   }
                 }
               },
@@ -647,10 +647,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 97,
+                  "charLength": 96,
                   "charOffset": 56,
                   "snippet": {
-                    "text": "{\n        Título: nome_1.Text;\n        Email: email_1.Text;\n        Sap: sap_1.Text\n            }"
+                    "text": "{\n        Title: nome_1.Text,\n        Email: email_1.Text,\n        Sap: sap_1.Text\n            }"
                   }
                 }
               },
@@ -1151,7 +1151,7 @@
                   "charLength": 270,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Patch(\n    DB_Controle;\n    Defaults(DB_Controle);\n    {\n        Nome: nome_1.Text;\n        Email: email_1.Text;\n        Sap:sap_1.Text;\n        Regional:(dropdownRegional_1. Selected.Value);\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
                   }
                 }
               },
@@ -1191,7 +1191,7 @@
                   "charLength": 213,
                   "charOffset": 55,
                   "snippet": {
-                    "text": "{\n        Nome: nome_1.Text;\n        Email: email_1.Text;\n        Sap:sap_1.Text;\n        Regional:(dropdownRegional_1. Selected.Value);\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
+                    "text": "{\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
                   }
                 }
               },
@@ -1692,7 +1692,7 @@
                   "charLength": 270,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Patch(\n    DB_Controle;\n    Defaults(DB_Controle);\n    {\n        Nome: nome_1.Text;\n        Email: email_1.Text;\n        Sap:sap_1.Text;\n        Regional:(dropdownRegional_1. Selected.Value);\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
+                    "text": "Patch(\n    DB_Controle,\n    Defaults(DB_Controle),\n    {\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }\n)"
                   }
                 }
               },
@@ -1732,7 +1732,7 @@
                   "charLength": 213,
                   "charOffset": 55,
                   "snippet": {
-                    "text": "{\n        Nome: nome_1.Text;\n        Email: email_1.Text;\n        Sap:sap_1.Text;\n        Regional:(dropdownRegional_1. Selected.Value);\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
+                    "text": "{\n        Nome: nome_1.Text,\n        Email: email_1.Text,\n        Sap:sap_1.Text,\n        Regional:(dropdownRegional_1. Selected.Value),\n        Unidade:(dropdownUnidade_1.Selected.Unidade)\n        \n        \n    }"
                   }
                 }
               },
@@ -1756,36 +1756,6 @@
           },
           "ruleId": "app-ErrTypeError-Arg-Expected-Found",
           "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.TextInput1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.TextInput1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela EditarCadastro EdC",
-                "type": "'Tela EditarCadastro EdC'.TextInput1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1852,36 +1822,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela NovoCadastro NC",
-                "type": "'Tela NovoCadastro NC'.nome"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Tela NovoCadastro NC'.Gallery2.AccessibleLabel"
                 }
               ],
@@ -1936,6 +1876,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Tela NovoCadastro NC'.nome.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela NovoCadastro NC",
+                "type": "'Tela NovoCadastro NC'.nome"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2182,19 +2152,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel"
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel",
+                  "fullyQualifiedName": "'Tela EditarCadastro EdC'.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "teste",
-                "type": "teste.Form1.Title_DataCard2.DataCardValue11"
+                "module": "Tela EditarCadastro EdC",
+                "type": "'Tela EditarCadastro EdC'.TextInput1"
               }
             }
           ],
@@ -2225,126 +2195,6 @@
                 "member": "AccessibleLabel",
                 "module": "teste",
                 "type": "teste.Form1.Unidade_DataCard3.DataCardValue12"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "teste",
-                "type": "teste.Form1.Email_DataCard2.DataCardValue13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "teste",
-                "type": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "teste",
-                "type": "teste.Form1.Nome_DataCard2.DataCardValue17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "teste",
-                "type": "teste.Form1.Attachments_DataCard2.DataCardValue18"
               }
             }
           ],
@@ -2416,6 +2266,156 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Apps_Selecionados_DataCard2.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Email_DataCard2.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Email_DataCard2.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Nome_DataCard2.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Nome_DataCard2.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Title_DataCard2.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Title_DataCard2.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "teste.Form1.Attachments_DataCard2.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "teste",
+                "type": "teste.Form1.Attachments_DataCard2.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2599,34 +2599,34 @@
               "id": "app-UnusedVariables",
               "messageStrings": {
                 "issue": {
-                  "text": "Variável não usada"
+                  "text": "Unused variable"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remover a variável não usada."
+                  "Remove the unused variable."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Essa variável está declarada, mas não é referenciada por nenhum controle, portanto não é necessária."
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             },
             {
               "id": "app-UnusedMediaResources",
               "messageStrings": {
                 "issue": {
-                  "text": "Arquivos de mídia não utilizados"
+                  "text": "Unused media files"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remova o arquivo de mídia não utilizado no painel Mídia."
+                  "Remove the unused media file in the Media pane."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "Este arquivo de mídia não é referenciado por nenhuma fórmula de controle, portanto não é necessário. Sua remoção melhorará o desempenho."
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],
