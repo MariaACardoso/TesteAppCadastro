@@ -24,7 +24,7 @@
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =Min(416, Self.Height - 60)
+        TemplateSize: =232
         Width: =400
         WrapCount: =2
         X: =836
