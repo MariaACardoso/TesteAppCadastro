@@ -393,16 +393,9 @@
             HoverColor: =RGBA(30, 45, 62, 1)
             HoverFill: =RGBA(237, 237, 237, 1)
             OnSelect: |-
-                =
-                Patch(
-                    DB_Controle,
+                =Patch(DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Title: nome_1.Text,
-                        Email: email_1.Text,
-                        Sap: sap_1.Text
-                            }
-                );
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(149, 149, 149, 1)
@@ -431,6 +424,10 @@
             HoverColor: =RGBA(116, 116, 116, 1)
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Check
+            OnSelect: |-
+                =Patch(DB_Controle,
+                    Defaults(DB_Controle),
+                    {
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)

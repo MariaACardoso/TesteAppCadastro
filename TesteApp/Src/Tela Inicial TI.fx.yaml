@@ -49,7 +49,7 @@
         FontWeight: =FontWeight.Bold
         Height: =42
         Size: =28
-        Text: =User().FullName
+        Text: =User().FullName & "!"
         Width: =323
         X: =548
         Y: =389
@@ -68,7 +68,7 @@
         FontWeight: =FontWeight.Lighter
         Height: =42
         Size: =20
-        Text: ="Olá,"
+        Text: ="Seja bem vindo (a),"
         Width: =323
         X: =547
         Y: =347
