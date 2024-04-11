@@ -16,7 +16,7 @@
         Y: =22
         ZIndex: =1
 
-    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+    "GaleriaApps As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
         BorderColor: =RGBA(85, 106, 129, 1)
         DelayItemLoading: =true
         Fill: =RGBA(149, 149, 149, 1)
@@ -101,6 +101,7 @@
             CheckboxBorderColor: =RGBA(218, 218, 218, 1)
             CheckmarkFill: =RGBA(0, 188, 242, 1)
             Color: =RGBA(255, 255, 255, 1)
+            Default: =
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisabledColor: =RGBA(166, 166, 166, 1)
             FocusedBorderThickness: =4
@@ -490,20 +491,21 @@
             HoverColor: =RGBA(30, 45, 62, 1)
             HoverFill: =RGBA(237, 237, 237, 1)
             OnSelect: |-
-                =Patch(
-                    DB_Controle,
+                =Patch(DB_Controle,
                     Defaults(DB_Controle),
-                    {
-                        Nome: nome.Text,
+                    {Nome: nome.Text,
                         Email: email.Text,
                         Sap:sap.Text,
                         Regional:(dropdownRegional. Selected.Value),
-                        Unidade:(dropdownUnidade.Selected.Unidade)
-                        
-                    }
+                        Unidade:(dropdownUnidade.Selected.Unidade)}
                 );
-                
-                ForAll(coll_teste
+                ForAll(coll_teste,
+                        Patch(DB_Controle,
+                        Defaults(DB_Controle),
+                        {
+                            Apps_Selecionados: ID
+                        })
+                    );
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(149, 149, 149, 1)
