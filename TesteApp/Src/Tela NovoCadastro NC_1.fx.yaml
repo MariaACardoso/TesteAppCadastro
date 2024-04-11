@@ -262,7 +262,7 @@
                     DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Título: nome_1.Text,
+                        Title: nome_1.Text,
                         Email: email_1.Text,
                         Sap: sap_1.Text
                             }

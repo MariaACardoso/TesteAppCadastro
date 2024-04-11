@@ -2,6 +2,107 @@
     Fill: =RGBA(237, 237, 237, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
 
+    "Gallery3 As gallery.'BrowseLayout_Vertical_TwoTextVariant_ver5.0'":
+        BorderColor: =RGBA(85, 106, 129, 1)
+        DelayItemLoading: =true
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =422
+        Items: |
+            =Search(
+                    DB_Controle, 
+                    TextInput1.Text,"Nome")
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Set(gblCadastroSelecionado,ThisItem)
+        TemplatePadding: =0
+        TemplateSize: =90
+        Width: =443
+        X: =480
+        Y: =228
+        ZIndex: =1
+
+        Title3 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =16
+            Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle4.Size * 1.8)) / 2
+            ZIndex: =1
+
+        Subtitle4 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.Email
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
+            ZIndex: =2
+
+        NextArrow3 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            BorderColor: =RGBA(85, 106, 129, 1)
+            Color: =RGBA(166, 166, 166, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =50
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =16
+            PaddingLeft: =16
+            PaddingRight: =16
+            PaddingTop: =16
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Tooltip: ="View item details"
+            Width: =50
+            X: =Parent.TemplateWidth - Self.Width - 12
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =3
+
+        Separator3 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =4
+
+        Rectangle4 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            Fill: =RGBA(116, 116, 116, 1)
+            Height: =Parent.TemplateHeight - Separator3.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =5
+
     rectEditarCadastro3 As rectangle:
         BorderColor: =RGBA(116, 116, 116, 1)
         BorderThickness: =2
@@ -127,249 +228,53 @@
             Y: =42
             ZIndex: =17
 
-    GroupEditarCadastroEdC As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =40
+    TextInput1 As text:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =" "
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(237, 237, 237, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =33
+        HoverBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(30, 45, 62, 1)
+        PressedBorderColor: =RGBA(0, 188, 242, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(30, 45, 62, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =13
+        Width: =443
+        X: =480
+        Y: =190
         ZIndex: =20
 
-        rectEditarCadastro As rectangle:
-            BorderColor: =RGBA(219, 219, 219, 1)
-            BorderThickness: =2
-            DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =473
-            HoverFill: =RGBA(219, 219, 219, 1)
-            PressedFill: =RGBA(219, 219, 219, 1)
-            Width: =396
-            X: =497
-            Y: =175
-            ZIndex: =1
-
-        email_1 As text:
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(0, 0, 0, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =38
-            HoverBorderColor: =RGBA(149, 149, 149, 1)
-            HoverColor: =RGBA(0, 0, 0, 1)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedBorderColor: =RGBA(149, 149, 149, 1)
-            PressedColor: =RGBA(0, 0, 0, 1)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Width: =351
-            X: =519
-            Y: =304
-            ZIndex: =3
-
-        nome_1 As text:
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(0, 0, 0, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =RGBA(149, 149, 149, 1)
-            HoverColor: =RGBA(0, 0, 0, 1)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedBorderColor: =RGBA(149, 149, 149, 1)
-            PressedColor: =RGBA(0, 0, 0, 1)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Width: =351
-            X: =519
-            Y: =217
-            ZIndex: =4
-
-        sap_1 As text:
-            BorderThickness: =2
-            Color: =RGBA(255, 255, 255, 1)
-            Default: =""
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(0, 0, 0, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            Height: =36
-            HoverBorderColor: =RGBA(149, 149, 149, 1)
-            HoverColor: =RGBA(0, 0, 0, 1)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            PressedBorderColor: =RGBA(149, 149, 149, 1)
-            PressedColor: =RGBA(0, 0, 0, 1)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            RadiusBottomLeft: =0
-            RadiusBottomRight: =0
-            RadiusTopLeft: =0
-            RadiusTopRight: =0
-            Size: =13
-            Width: =351
-            X: =519
-            Y: =392
-            ZIndex: =5
-
-        dropdownUnidade_1 As dropdown:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            ChevronBackground: =RGBA(116, 116, 116, 1)
-            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-            ChevronDisabledFill: =RGBA(166, 166, 166, 1)
-            ChevronHoverBackground: =RGBA(0, 0, 0, 1)
-            ChevronHoverFill: =RGBA(219, 219, 219, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            Font: =Font.'Segoe UI'
-            HoverBorderColor: =RGBA(202, 202, 202, 1)
-            HoverColor: =RGBA(0, 0, 0, 1)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Items: =Filter(DB_Regionais, Regionais = dropdownRegional_1.SelectedText.Value)
-            PaddingBottom: =5
-            PaddingLeft: =12
-            PaddingRight: =5
-            PaddingTop: =5
-            PressedBorderColor: =RGBA(149, 149, 149, 1)
-            PressedColor: =RGBA(30, 45, 62, 1)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            SelectionColor: =RGBA(219, 219, 219, 1)
-            SelectionFill: =RGBA(149, 149, 149, 1)
-            Size: =13
-            Width: =351
-            X: =519
-            Y: =572
-            ZIndex: =6
-
-        dropdownRegional_1 As dropdown:
-            BorderColor: =RGBA(0, 0, 0, 1)
-            ChevronBackground: =RGBA(116, 116, 116, 1)
-            ChevronDisabledBackground: =RGBA(244, 244, 244, 1)
-            ChevronDisabledFill: =RGBA(149, 149, 149, 1)
-            ChevronHoverBackground: =RGBA(0, 0, 0, 1)
-            ChevronHoverFill: =RGBA(218, 218, 218, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            DisabledFill: =RGBA(244, 244, 244, 1)
-            Fill: =RGBA(219, 219, 219, 1)
-            Font: =Font.'Segoe UI'
-            Height: =41
-            HoverBorderColor: =RGBA(202, 202, 202, 1)
-            HoverColor: =RGBA(0, 0, 0, 1)
-            HoverFill: =RGBA(0, 0, 0, 0)
-            Items: =Distinct(DB_Regionais,Regionais)
-            PaddingBottom: =5
-            PaddingLeft: =12
-            PaddingRight: =5
-            PaddingTop: =5
-            PressedBorderColor: =RGBA(149, 149, 149, 1)
-            PressedColor: =RGBA(0, 0, 0, 1)
-            PressedFill: =RGBA(0, 0, 0, 0)
-            SelectionColor: =RGBA(219, 219, 219, 1)
-            SelectionFill: =RGBA(116, 116, 116, 1)
-            Size: =13
-            Width: =351
-            X: =519
-            Y: =479
-            ZIndex: =7
-
-        lblNome_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="Nome"
-            X: =519
-            Y: =177
-            ZIndex: =8
-
-        lblEmail_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="E-mail"
-            X: =519
-            Y: =264
-            ZIndex: =9
-
-        lblSap_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="SAP"
-            X: =519
-            Y: =352
-            ZIndex: =10
-
-        lblRegional_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="Regional"
-            X: =519
-            Y: =437
-            ZIndex: =11
-
-        lblUnidade_1 As label:
-            BorderColor: =RGBA(0, 0, 0, 0)
-            BorderStyle: =BorderStyle.None
-            BorderThickness: =2
-            Color: =RGBA(0, 0, 0, 1)
-            DisabledBorderColor: =RGBA(0, 0, 0, 0)
-            DisabledColor: =RGBA(166, 166, 166, 1)
-            FocusedBorderThickness: =4
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Bold
-            Size: =16
-            Text: ="Unidade"
-            X: =519
-            Y: =532
-            ZIndex: =12
+    Icon1 As icon.Search:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        Color: =RGBA(0, 188, 242, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =29
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Search
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =32
+        X: =879
+        Y: =194
+        ZIndex: =21
 
     "'GroupSalvar EdC' As group":
         Height: =5
@@ -398,7 +303,7 @@
                     DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Título: nome_1.Text,
+                        Title: nome_1.Text,
                         Email: email_1.Text,
                         Sap: sap_1.Text
                             }
@@ -438,4 +343,31 @@
             X: =592
             Y: =682
             ZIndex: =19
+
+    Button1 As button:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(30, 45, 62, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(0, 188, 242, 1)
+        FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(30, 45, 62, 1)
+        HoverFill: =ColorFade(RGBA(0, 188, 242, 1), 10%)
+        OnSelect: =Edit
+        PressedBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 50%)
+        PressedColor: =RGBA(30, 45, 62, 1)
+        PressedFill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =15
+        Text: ="Editar"
+        X: =961
+        Y: =399
+        ZIndex: =22
 

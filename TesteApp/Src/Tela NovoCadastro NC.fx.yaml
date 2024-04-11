@@ -460,7 +460,7 @@
                     DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Título: nome.Text,
+                        Nome: nome.Text,
                         Email: email.Text,
                         Sap:sap.Text,
                         Regional:(dropdownRegional. Selected.Value),
@@ -502,7 +502,7 @@
                     DB_Controle,
                     Defaults(DB_Controle),
                     {
-                        Título: nome.Text,
+                        Nome: nome.Text,
                         Email: email.Text,
                         Sap:sap.Text,
                         Regional:(dropdownRegional. Selected.Value),
