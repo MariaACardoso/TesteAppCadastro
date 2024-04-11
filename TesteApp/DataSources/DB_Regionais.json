@@ -23,20 +23,16 @@
       "{TriggerWindowEndToken}": "Trigger Window End Token",
       "{TriggerWindowStartToken}": "Trigger Window Start Token",
       "{VersionNumber}": "Version number",
-      "Apps_Selecionados": "Apps_Selecionados",
       "Author": "Created By",
       "Author#Claims": "Created By Claims",
       "ComplianceAssetId": "Compliance Asset Id",
       "Created": "Created",
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
-      "Email": "Email",
       "ID": "ID",
       "Modified": "Modified",
-      "Nome": "Nome",
       "OData__ColorTag": "Color Tag",
-      "Regional": "Regional",
-      "Sap": "Sap",
+      "Regionais": "Regionais",
       "Title": "Title",
       "Unidade": "Unidade"
     },
@@ -44,7 +40,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "DB_Controle",
+    "Name": "DB_Regionais",
     "Type": "ConnectedDataSourceInfo"
   }
 ]

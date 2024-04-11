@@ -1,0 +1,129 @@
+"'Tela ExcluirCadastro ExC' As screen":
+    Fill: =RGBA(237, 237, 237, 1)
+    LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
+
+    rectExcluirCadastro2 As rectangle:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(202, 202, 202, 1)
+        FocusedBorderThickness: =4
+        HoverFill: =RGBA(219, 219, 219, 1)
+        PressedFill: =RGBA(219, 219, 219, 1)
+        Width: =382
+        X: =511
+        Y: =42
+        ZIndex: =1
+
+    rectExcluirCadastro As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledFill: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        FocusedBorderThickness: =4
+        HoverFill: =RGBA(219, 219, 219, 1)
+        PressedFill: =RGBA(219, 219, 219, 1)
+        Width: =382
+        X: =497
+        Y: =56
+        ZIndex: =13
+
+    lblExcluirCadastro As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =26
+        Text: ="Excluir Cadastro"
+        Width: =277
+        X: =549
+        Y: =71
+        ZIndex: =14
+
+    imgUserExC As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =80
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =User().Image
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        RadiusBottomLeft: =Self.Height
+        RadiusBottomRight: =Self.Height
+        RadiusTopLeft: =Self.Height
+        RadiusTopRight: =Self.Height
+        Width: =80
+        X: =1257
+        Y: =42
+        ZIndex: =18
+
+    GroupVoltarExC As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =18
+
+        btnVoltar_2 As button:
+            BorderColor: =RGBA(116, 116, 116, 1)
+            Color: =RGBA(0, 0, 0, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            DisabledFill: =RGBA(244, 244, 244, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            FocusedBorderColor: =ColorFade(Self.Fill, 75%)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =43
+            HoverBorderColor: =RGBA(149, 149, 149, 1)
+            HoverColor: =RGBA(30, 45, 62, 1)
+            HoverFill: =RGBA(237, 237, 237, 1)
+            OnSelect: =Navigate('Tela Inicial TI',ScreenTransition.Fade)
+            PressedBorderColor: =
+            PressedColor: =RGBA(30, 45, 62, 1)
+            PressedFill: =RGBA(149, 149, 149, 1)
+            RadiusBottomLeft: =180
+            RadiusBottomRight: =180
+            RadiusTopLeft: =180
+            RadiusTopRight: =180
+            Size: =16
+            Text: |-
+                ="Voltar
+                "
+            Width: =147
+            X: =65
+            Y: =41
+            ZIndex: =16
+
+        icnVoltar_2 As icon.BackArrow:
+            BorderColor: =RGBA(85, 106, 129, 1)
+            Color: =RGBA(116, 116, 116, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(116, 116, 116, 1)
+            FocusedBorderThickness: =4
+            Height: =42
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(116, 116, 116, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.BackArrow
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =35
+            X: =15
+            Y: =42
+            ZIndex: =17
+
