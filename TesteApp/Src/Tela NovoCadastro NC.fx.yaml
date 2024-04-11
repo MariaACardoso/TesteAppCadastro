@@ -109,9 +109,13 @@
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             HoverColor: =RGBA(255, 255, 255, 1)
             HoverFill: =RGBA(0, 0, 0, 0)
-            OnCheck: =
+            OnCheck: |-
+                =Collect(
+                    coll_teste,
+                    ThisItem
+                )
             OnSelect: =Select(Parent)
-            OnUncheck: =
+            OnUncheck: =Remove(coll_teste,ThisItem)
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =RGBA(255, 255, 255, 1)
             PressedFill: =RGBA(0, 0, 0, 0)
@@ -499,7 +503,7 @@
                     }
                 );
                 
-                //ForAll(coll_teste
+                ForAll(coll_teste
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(149, 149, 149, 1)
