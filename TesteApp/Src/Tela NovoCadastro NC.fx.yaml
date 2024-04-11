@@ -357,20 +357,6 @@
             Y: =542
             ZIndex: =11
 
-        rectNovoCadastro_2 As rectangle:
-            BorderColor: =RGBA(219, 219, 219, 1)
-            BorderThickness: =2
-            DisabledFill: =RGBA(166, 166, 166, 1)
-            Fill: =RGBA(0, 0, 0, 0)
-            FocusedBorderThickness: =4
-            Height: =473
-            HoverFill: =RGBA(219, 219, 219, 1)
-            PressedFill: =RGBA(219, 219, 219, 1)
-            Width: =396
-            X: =497
-            Y: =185
-            ZIndex: =19
-
     "'GroupSalvar NC' As group":
         Height: =5
         Width: =5
@@ -393,9 +379,19 @@
             HoverColor: =RGBA(30, 45, 62, 1)
             HoverFill: =RGBA(237, 237, 237, 1)
             OnSelect: |-
-                =Patch(DB_Controle,
+                =Patch(
+                    DB_Controle,
                     Defaults(DB_Controle),
                     {
+                        Título: nome.Text,
+                        Email: email.Text,
+                        Sap:sap.Text,
+                        Regional:(dropdownRegional. Selected.Value),
+                        Unidade:(dropdownUnidade.Selected.Unidade)
+                        
+                        
+                    }
+                );
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(149, 149, 149, 1)
