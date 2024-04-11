@@ -1823,7 +1823,8 @@
         "Y",
         "Width",
         "Height",
-        "ZIndex"
+        "ZIndex",
+        "Selectable"
       ],
       "GalleryTemplateChildName": "galleryTemplate2",
       "HasDynamicProperties": false,
@@ -1849,6 +1850,11 @@
           "Category": "Data",
           "PropertyName": "WrapCount",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "Selectable",
+          "RuleProviderType": "User"
         },
         {
           "Category": "Design",

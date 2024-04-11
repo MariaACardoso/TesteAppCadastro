@@ -455,7 +455,7 @@
             HoverBorderColor: =RGBA(149, 149, 149, 1)
             HoverColor: =RGBA(30, 45, 62, 1)
             HoverFill: =RGBA(237, 237, 237, 1)
-            OnSelect: |-
+            OnSelect: |+
                 =Patch(
                     DB_Controle,
                     Defaults(DB_Controle),
@@ -464,11 +464,16 @@
                         Email: email.Text,
                         Sap:sap.Text,
                         Regional:(dropdownRegional. Selected.Value),
-                        Unidade:(dropdownUnidade.Selected.Unidade)
-                        
-                        
+                        Unidade:(dropdownUnidade.Selected.Unidade)  
                     }
                 );
+                
+                Reset(nome);
+                Reset(email);
+                Reset(sap);
+                Reset(dropdownRegional);
+                Reset(dropdownUnidade);
+                
             PressedBorderColor: =
             PressedColor: =RGBA(30, 45, 62, 1)
             PressedFill: =RGBA(149, 149, 149, 1)
