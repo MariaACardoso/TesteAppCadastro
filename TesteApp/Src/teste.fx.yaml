@@ -217,7 +217,7 @@ teste As screen:
             BorderColor: =RGBA(85, 106, 129, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="Title"
-            Default: =ThisItem.Title
+            Default: =ThisItem.Título
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@DB_Controle],DataSourceInfo.DisplayName,"Title")
             Fill: =RGBA(0, 0, 0, 0)
@@ -797,7 +797,7 @@ teste As screen:
             BorderColor: =RGBA(85, 106, 129, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="{Attachments}"
-            Default: =ThisItem.Attachments
+            Default: =ThisItem.Anexos
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@DB_Controle],DataSourceInfo.DisplayName,"{Attachments}")
             Fill: =RGBA(0, 0, 0, 0)
