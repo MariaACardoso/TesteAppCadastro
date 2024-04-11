@@ -47,12 +47,12 @@
         FocusedBorderThickness: =4
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Bold
-        Height: =42
+        Height: =92
         Size: =28
         Text: =User().FullName & "!"
-        Width: =323
-        X: =548
-        Y: =389
+        Width: =1332
+        X: =34
+        Y: =383
         ZIndex: =3
 
     lblOla As label:

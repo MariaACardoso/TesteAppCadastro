@@ -20,13 +20,17 @@
           },
           "DB_Regionais": {
             "tableName": "73a06b21-2944-4925-9528-24d4e9ebcd03"
+          },
+          "Iniciativas": {
+            "tableName": "595ceadb-8f43-4a7a-ac6d-60e508523f31"
           }
         }
       }
     },
     "dataSources": [
       "DB_Controle",
-      "DB_Regionais"
+      "DB_Regionais",
+      "Iniciativas"
     ],
     "dependencies": {},
     "dependents": [],

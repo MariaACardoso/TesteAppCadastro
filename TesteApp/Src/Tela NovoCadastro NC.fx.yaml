@@ -15,6 +15,83 @@
         Y: =22
         ZIndex: =1
 
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageTwoColumnVariant_ver5.0'":
+        BorderColor: =RGBA(85, 106, 129, 1)
+        DelayItemLoading: =true
+        Fill: =RGBA(149, 149, 149, 1)
+        Height: =435
+        Items: =Iniciativas
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =Min(416, Self.Height - 60)
+        Width: =400
+        WrapCount: =2
+        X: =836
+        Y: =227
+        ZIndex: =1
+
+        Image4 As image:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =138
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Image: =ThisItem.Print
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            RadiusBottomLeft: =8
+            RadiusBottomRight: =8
+            RadiusTopLeft: =8
+            RadiusTopRight: =8
+            Width: =Parent.TemplateWidth - 32
+            X: =16
+            Y: =16
+            ZIndex: =1
+
+        Title4 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.'Nome '
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 64
+            X: =32
+            Y: =Image4.Y + Image4.Height + 16
+            ZIndex: =2
+
+        Subtitle3 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =12
+            Text: =ThisItem.Iniciativa
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title4.Width
+            X: =Title4.X
+            Y: =Title4.Y + Title4.Height + 8
+            ZIndex: =3
+
     rectNovoCadastro As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -157,7 +234,7 @@
             RadiusTopRight: =0
             Size: =13
             Width: =351
-            X: =519
+            X: =212
             Y: =314
             ZIndex: =2
 
@@ -183,7 +260,7 @@
             RadiusTopRight: =0
             Size: =13
             Width: =351
-            X: =519
+            X: =212
             Y: =227
             ZIndex: =3
 
@@ -210,7 +287,7 @@
             RadiusTopRight: =0
             Size: =13
             Width: =351
-            X: =519
+            X: =212
             Y: =402
             ZIndex: =4
 
@@ -241,7 +318,7 @@
             SelectionFill: =RGBA(149, 149, 149, 1)
             Size: =13
             Width: =351
-            X: =519
+            X: =212
             Y: =582
             ZIndex: =5
 
@@ -273,7 +350,7 @@
             SelectionFill: =RGBA(116, 116, 116, 1)
             Size: =13
             Width: =351
-            X: =519
+            X: =212
             Y: =489
             ZIndex: =6
 
@@ -289,7 +366,7 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Nome"
-            X: =519
+            X: =212
             Y: =187
             ZIndex: =7
 
@@ -305,7 +382,7 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="E-mail"
-            X: =519
+            X: =212
             Y: =274
             ZIndex: =8
 
@@ -321,7 +398,7 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="SAP"
-            X: =519
+            X: =212
             Y: =362
             ZIndex: =9
 
@@ -337,7 +414,7 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Regional"
-            X: =519
+            X: =212
             Y: =447
             ZIndex: =10
 
@@ -353,7 +430,7 @@
             FontWeight: =FontWeight.Bold
             Size: =16
             Text: ="Unidade"
-            X: =519
+            X: =212
             Y: =542
             ZIndex: =11
 
@@ -404,7 +481,7 @@
                 ="Salvar
                 "
             Width: =147
-            X: =649
+            X: =643
             Y: =686
             ZIndex: =20
 
@@ -421,14 +498,24 @@
             HoverFill: =RGBA(0, 0, 0, 0)
             Icon: =Icon.Check
             OnSelect: |-
-                =Patch(DB_Controle,
+                =Patch(
+                    DB_Controle,
                     Defaults(DB_Controle),
                     {
+                        Título: nome.Text,
+                        Email: email.Text,
+                        Sap:sap.Text,
+                        Regional:(dropdownRegional. Selected.Value),
+                        Unidade:(dropdownUnidade.Selected.Unidade)
+                        
+                        
+                    }
+                );
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)
             Width: =44
-            X: =592
+            X: =586
             Y: =686
             ZIndex: =21
 
