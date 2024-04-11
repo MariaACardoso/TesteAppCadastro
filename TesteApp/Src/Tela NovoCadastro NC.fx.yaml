@@ -1,6 +1,7 @@
 "'Tela NovoCadastro NC' As screen":
     Fill: =RGBA(237, 237, 237, 1)
     LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
+    OnVisible: =Clear(coll_teste)
 
     rectNovoCadastro_1 As rectangle:
         BorderColor: =RGBA(116, 116, 116, 1)
@@ -24,11 +25,11 @@
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =Min(416, Self.Height - 60)
-        Width: =400
+        TemplateSize: =232
+        Width: =518
         WrapCount: =2
-        X: =836
-        Y: =227
+        X: =800
+        Y: =212
         ZIndex: =1
 
         Image4 As image:
@@ -91,6 +92,39 @@
             X: =Title4.X
             Y: =Title4.Y + Title4.Height + 8
             ZIndex: =3
+
+        Checkbox1 As checkbox:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            CheckboxBackgroundFill: =RGBA(30, 45, 62, 1)
+            CheckboxBorderColor: =RGBA(218, 218, 218, 1)
+            CheckmarkFill: =RGBA(0, 188, 242, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =42
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 255, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            OnCheck: |-
+                =Collect(
+                    coll_teste,
+                    ThisItem
+                )
+            OnSelect: =Select(Parent)
+            OnUncheck: =Remove(coll_teste,ThisItem)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Size: =13
+            Text: =""
+            Width: =134
+            X: =16
+            Y: =16
+            ZIndex: =4
 
     rectNovoCadastro As rectangle:
         BorderColor: =RGBA(0, 0, 0, 0)
@@ -513,9 +547,10 @@
                         Regional:(dropdownRegional. Selected.Value),
                         Unidade:(dropdownUnidade.Selected.Unidade)
                         
-                        
                     }
                 );
+                
+                //ForAll(coll_teste
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
             PressedFill: =RGBA(0, 0, 0, 0)
